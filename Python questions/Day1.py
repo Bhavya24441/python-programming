@@ -70,21 +70,24 @@
 
 
 # Question 7: Print Numbers Divisible by 3
-
-
-
-
-
-
-
+#Solution:
+# numbers = [10,23,33,45,60,72,81,95,102,115,123,135, 3,9,12,14,15,116]
+# for i in numbers:
+#     if i%3==0:
+#         print(i)
 
 
 
 
 
 # Question 8 : Count Spaces in a String
-
-
+#Solution:
+# string = "Hello world   this    is question 8"
+# count = 0
+# for char in string:
+#     if char == " ":
+#         count = count + 1
+# print("The number of spaces in the string is:", count)
 
 
 
@@ -92,14 +95,24 @@
 
 
 # Question 9 : Replace Vowels with *
-
-
-
-
-
-
-
+#Solution:
+# string = "This string will have its vowerls replaced with *"
+# vowels = "a","e","i","o","u","A","E","I","O","U"
+# new_string = ""
+# for char in string:
+#     if char in vowels:
+#         new_string = new_string + "*"
+#     else:
+#         new_string = new_string +char
+# print("The new string is:", new_string)
 
 
 
 # Question 10: Remove Duplicates from List
+#Solution:
+# numbers =[1111,2,222,4,4,5,6,7,7,7,7,8,8,6,5,5,4,3,2,1,1111]
+# duplicates_removed =[]
+# for i in numbers:
+#     if i not in duplicates_removed:
+#         duplicates_removed.append(i)
+# print("List after removing duplicates:", duplicates_removed)
